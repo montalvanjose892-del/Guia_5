@@ -1,0 +1,11 @@
+<h1>Segundo controlador</h1>
+<h2>Hashes</h2>
+
+<table class="tabla-hash">
+  <% @persona.each do |clave, valor| %>
+    <tr>
+      <td class="col-clave"><%= clave %></td>
+      <td class="col-valor"><%= valor %></td>
+    </tr>
+  <% end %>
+</table>

@@ -1,0 +1,20 @@
+.tabla-hash {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.tabla-hash td {
+  border: 1px solid #000;
+  padding: 4px 8px;
+}
+
+.col-clave {
+  background-color: #337ab7;
+  color: white;
+  font-weight: bold;
+}
+
+.col-valor {
+  background-color: #d9d9c3;
+  color: black;
+}
